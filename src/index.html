@@ -13,11 +13,72 @@
       type="image/x-icon"
     />
 
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- main css -->
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-gradient-to-r from-[#060A30] via-[#070C38] via-[#270D45] via[#270D45] to-[#070C38] h-screen">
+
+   <!-- Navbar -->
+        <!-- <nav class="shadow-md lg:p-4 p-2  z-10 fixed w-full top-0">
+            <div class="lg:flex lg:justify-between lg:items-center lg:space-y-0 space-y-3 mt-1.5   ">
+                <img class="" src="./assets/images/Bidders full logo.png" alt="">
+                <div class="absolute right-8 top-px lg:hidden  ">
+                    <ion-icon id="icon" class="text-4xl cursor-pointer" name="menu"></ion-icon>
+                </div>
+                <ul id="navList" class="lg:flex lg:text-[#ADB9CB] lg:static lg:w-auto lg:space-y-0 lg:space-x-20 lg:mr-20 lg:font-bold lg:text-sm left-0 w-full space-y-4 hidden p-2 ease-in absolute pt-5 transition-all z-20 ">
+                <li><a class="hover:text-white-600/50" href="#">Home</a></li>
+                <li><a class="hover:text-white-600/50" href="#">Earn</a></li>
+                <li><a class="hover:text-white-600/50" href="#">Win</a></li>
+                <li><a class="hover:text-white-600/50" href="#">Resource</a></li>
+                </ul>
+            </div>
+
+            <img src="./assets/" alt="">
+        </nav> -->
+            <nav class="relative container mx-auto p-6">
+                
+                <!-- flex container -->
+                <div class="flex items-center justify-between">
+
+                    <!-- logo -->
+                    <div class="pt-2">
+                        <img src="./assets/images/Bidders full logo.png " alt="">
+                    </div>
+                    <!-- menu items -->
+                    <div class="hidden md:flex space-x-6 text-[#ADB9CB] font-semibold">
+                        <a href="#" class="focus:text-[#FCFCFC] hover:text-darkGrayishBlue">Home</a>
+                        <a href="#" class="hover:text-sky-400">Earn</a>
+                        <a href="#" class="hover:text-sky-400">Win</a>
+                        <a href="#" class="hover:text-sky-400">Resource</a>
+                    </div>
+                    
+                    <!-- cart -->
+                    <div class="hidden md:flex space-x-4">
+                        
+                        <div class="p-3 px-6 pt-2">
+                            <!-- <div class="rounded-full bg-gradient-to-r from-[#9C12BD] to-[#1F3AD6] bg-[#1E1E1E] p-2">
+                            <img src="./assets/images/Cart.png" alt="">
+                            </div> -->
+                            <img src="./assets/images/cart full.png" alt="">
     
+                            
+                        
+                        </div>
+                        <!-- button -->
+                        <div class="pt-5">
+                            <a href="#" class="rounded-md text-center baseline font-bold text-[#FCFCFC] bg-gradient-to-r from-[#9C12BD] to-[#1F3AD6] p-3">Connect Wallet</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
 
     <!-- main js -->
     <script type="module" src="./assets/js/main.js"></script>
