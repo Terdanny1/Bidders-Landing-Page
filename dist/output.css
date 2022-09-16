@@ -771,6 +771,26 @@ video {
   margin-top: 24rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -953,6 +973,30 @@ video {
   width: 370px;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
+.w-\[299px\] {
+  width: 299px;
+}
+
+.w-\[2px\] {
+  width: 2px;
+}
+
+.w-\[290px\] {
+  width: 290px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -983,6 +1027,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -1102,9 +1150,18 @@ video {
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-\[\#6F6C6C\] {
   --tw-border-opacity: 1;
   border-color: rgb(111 108 108 / var(--tw-border-opacity));
+}
+
+.border-t-yellow-800 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(133 77 14 / var(--tw-border-opacity));
 }
 
 .bg-\[\#1e1e1e\] {
@@ -1207,6 +1264,18 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\] {
+  --tw-gradient-from: ;
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#9D12BB\] {
+  --tw-gradient-from: #9D12BB;
+  --tw-gradient-to: rgb(157 18 187 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-\[\#070C38\] {
   --tw-gradient-to: rgb(7 12 56 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #070C38, var(--tw-gradient-to);
@@ -1243,6 +1312,14 @@ video {
 
 .to-\[\#153CD8\] {
   --tw-gradient-to: #153CD8;
+}
+
+.to-\[\] {
+  --tw-gradient-to: ;
+}
+
+.to-\[\#0E3ED9\] {
+  --tw-gradient-to: #0E3ED9;
 }
 
 .bg-clip-text {
@@ -1320,6 +1397,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -1330,6 +1412,14 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
