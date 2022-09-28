@@ -1324,6 +1324,14 @@ video {
   .sm\:w-\[300px\] {
     width: 300px;
   }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1364,8 +1372,16 @@ video {
     position: static;
   }
 
+  .lg\:m-4 {
+    margin: 1rem;
+  }
+
   .lg\:mr-20 {
     margin-right: 5rem;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
   }
 
   .lg\:flex {
