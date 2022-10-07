@@ -17,7 +17,7 @@ You would need to install tailwind via npm
 [Montunrayo Joseph](https://www.linkedin.com/in/motunrayojoseph/)
 
 ## Contributors
-[Adekunle (Michael) Ajayi](https://www.linkedin.com/in/adekunle-michael-ajayi/)
+[Adekunle (Michael) Ajayi](https://www.linkedin.com/in/adekunle-michael-ajayi/) <br>
 [Joseph Enoch](https://www.linkedin.com/in/joseph-enoch/)
 
 ## Design
