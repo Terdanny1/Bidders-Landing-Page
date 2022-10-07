@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Landing Page For A fictional NFT Marketplace
+Landing Page For A NFT Marketplace
 
 ## Installation
 
@@ -16,6 +16,10 @@ You would need to install tailwind via npm
 
 [Montunrayo Joseph](https://www.linkedin.com/in/motunrayojoseph/)
 
+## Contributors
+[Adekunle (Michael) Ajayi](https://www.linkedin.com/in/adekunle-michael-ajayi/)
+[Joseph Enoch](https://www.linkedin.com/in/joseph-enoch/)
+
 ## Design
 
 Below is the figma UI design
@@ -25,4 +29,4 @@ Below is the figma UI design
 
 ## Licence & Copyright
 
-&copy; All Rights Are Reserved By Bidders NFT , Designed By <strong>Montunrayo Joseph </strong> & Built By <strong>Daniel Terhemen. </strong>
+&copy; All Rights Are Reserved By Bidders NFT , Designed By <strong> Montunrayo Joseph </strong> & Built By <strong>Daniel Terhemen. </strong>
